@@ -1,10 +1,95 @@
 <!DOCTYPE html>
 <html>
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Visualização de Dados</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    /* 🔹 Banner */
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2E7D32);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    /* 🔹 Conteúdo */
+    .container {
+      padding: 20px 40px;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 40px;
+    }
+
+    .grafico {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 10px;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 420px;
+    }
+
+    /* 🔹 Rodapé */
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
   <body>
+     <!-- 🔹 Banner -->
+  <header>
+    <h1>📊 Análise de Estilo de Vida</h1>
+    <p>Visualizações construídas com Vega-Lite</p>
+  </header>
+
+  <!-- 🔹 Conteúdo -->
+  <div class="container">
+
+    <h2>Média de Idade por Tipo de Treino</h2>
+    <div class="grafico">
         <iframe width="100%" height="197.859375" frameborder="0"
   src="https://observablehq.com/embed/a21b764723a9c8fb?cells=q1_bar"></iframe>
-
+  <\div>
+     <h2>Relação entre Idade e BMI por Sexo</h2>
+    <div class="grafico">
     <iframe width="100%" height="470.84375" frameborder="0"
   src="https://observablehq.com/embed/a21b764723a9c8fb@155?cells=q2_bar"></iframe>
+        <\div>
+    <\div>
+       <!-- 🔹 Rodapé -->
+  <footer>
+    <p>Desenvolvido por Jamires Costa</p>
+    <p>Disciplina de Visualização de Dados • 2026</p>
+  </footer>
   </body>
 </html>
